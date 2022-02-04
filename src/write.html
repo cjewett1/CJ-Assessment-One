@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#c8112e">
+<meta name="theme-color" content="#c8112e">
+<meta name="description" 
+content="Developer Kit">
+
+    <title>Clints Plumbing Supplies</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/write.js" defer></script> <!--This is causing the nav bar to stop working. Ask Jim. Also ask him about the icon-->
+</head>
+
+<body>
+        <header>
+            <div class = "flex">
+              <!-- Hamburger Menu -->
+              <div class= "toggle-icon">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                </div>
+                <h1>Clint's Plumbing Supply</h1>
+                <p>Logout</p>
+            <nav>
+                <ul class="menu-links">
+                  <li><a href="index.html">Dashboard</a></li>
+                  <li><a href="write.html">Add a product</a></li>
+                  <li><a href="delete.html">Delete a product</a></li>
+                  <li><a href="update.html">Update/Edit a product</a></li>
+                  <li><a href="read.html">View products</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+    <main>
+
+        <aside class="write-to-rtd">
+            <form id="writeToRTD">
+              <div class="form-control">
+                <label for="writeUserData">Add user data</label>
+                <input id="writeUserData" type="text" placeholder="add user data" tabIndex="1"/>
+              </div>
+              <button type="submit" class="submit" tabindex="2">Submit to RTD</button> 
+            </form>
+          </aside>
+    </main>
+ 
+</body>
+
+</html>

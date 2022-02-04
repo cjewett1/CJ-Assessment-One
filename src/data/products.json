@@ -1,0 +1,13 @@
+{
+    "products": {
+        "-Mv0j1aCUQm1hGRWIFqs": {
+          "id": "Mv0j1aCUQm1hGRWIFqs",
+          "sku": "01",
+          "image": "product-url",
+          "title": "Pipe Wrench",
+          "price": "100",
+          "application": "pipe-fitting"
+        }
+
+      }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "assessment-one",
+  "version": "1.0.0",
+  "description": "assement one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clinton jewett",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.6.5",
+    "nanoid": "^3.2.0",
+    "parcel": "^2.2.1"
+  }
+}
